@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Rss Hook Web App : Backend",
+  "main": "index.js",
+  "scripts": {
+    "init-db": "node scripts/init_db.js",
+    "reset-db": "node scripts/reset_db.js",
+    "clear-db": "node scripts/reset_db.js; node scripts/init_db.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "featherjs": "^0.1.0",
+    "pg": "^8.7.3"
+  }
+}
